@@ -1,6 +1,6 @@
 # Shell
 
-This is Shell, a shell.
+This is shell61, a shell I built as part of a class. I wrote everything on `sh61.c` and `sh61.h`.
 
 ## Make targets
 
@@ -9,5 +9,7 @@ This is Shell, a shell.
 | File        | Description                     |
 | ----------- | ------------------------------- |
 | `helpers.c` | helper functions (e.g., parser) |
-| `shell.c`   | C library                       |
-| `shell.h`   | x86-64 hardware definitions     |
+| `sh61.c`    | shell implementation            |
+| `sh61.h`    | token definitions               |
+
+## Shell Grammar
