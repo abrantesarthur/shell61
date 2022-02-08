@@ -11,9 +11,6 @@ all: sh61
 sh61: sh61.o helpers.o
 	$(call run,$(CC) $(CFLAGS) $(O) -o $@ $^ $(LDFLAGS) $(LIBS),LINK $@)
 
-sleep61: sleep61.c
-	$(call run,$(CC) $(CFLAGS) $(O) -o $@ $^ $(LDFLAGS) $(LIBS),BUILD $@)
-
 check: sh61
 	perl check.pl
 
