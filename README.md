@@ -4,7 +4,7 @@ This is shell61, a shell I built as part of a class. I wrote everything on `sh61
 
 ## Make targets
 
-`make sh61` build the shell's executable `sh61`
+`make sh61` builds the shell's executable `sh61`
 
 `make check` runs tests
 
