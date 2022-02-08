@@ -1,13 +1,13 @@
-CS 61 Problem Set 5
-===================
+# Shell
 
-**Fill out both this file and `AUTHORS.md` before submitting.** We grade
-anonymously, so put all personally identifying information in `AUTHORS.md`.
+This is Shell, a shell.
 
-Grading notes (if any)
-----------------------
-I think I lost some style points in my previous attempt solely because I was not checking for failures for when fork() returned -1. However, I am checking that now, so I would really appreciate if my style for this problem set could be regraded.
+## Make targets
 
+## Source Files
 
-Extra credit attempted (if any)
--------------------------------
+| File        | Description                     |
+| ----------- | ------------------------------- |
+| `helpers.c` | helper functions (e.g., parser) |
+| `shell.c`   | C library                       |
+| `shell.h`   | x86-64 hardware definitions     |
